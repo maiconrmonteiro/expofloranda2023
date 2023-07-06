@@ -22,9 +22,9 @@ header {
 }
 
 .logoFloranda {
-    width: 15%;
+    width: 10%;
     position: absolute;
-    bottom: -15%;
+    bottom: -7%;
 }
 
 .primeiraSessao {
@@ -37,7 +37,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin-top: 15px;
 }
 
 .dataEdicao {
