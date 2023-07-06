@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+    font-family: italic;
+    src: url(../fonts/MyriadVariableConcept-Italic.otf);
+}
+
+@font-face {
+    font-family: romam;
+    src: url(../fonts/MyriadVariableConcept-Roman.otf);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/OpenSans-Regular_1.ttf);
+}

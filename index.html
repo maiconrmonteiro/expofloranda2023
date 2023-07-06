@@ -4,20 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>ExpoFloranda 2023</title>
 </head>
 
 <body>
+
+    <!-- início do preloader -->
+    <div id="preloader">
+        <div class="inner">
+            <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+            <div class="bolas">
+                <div>
+                    <img src="img/icons8-flor-50.png" alt="">
+                </div>
+                <div>
+                    <img src="img/icons8-flor-50.png" alt="">
+                </div>
+                <div>
+                    <img src="img/icons8-flor-50.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fim do preloader -->
+
     <main>
         <header>
-            <img src="img/IMG_9782.png" alt="">
+            <img class="marcaFloranda" src="img/marcaFloranda.png" alt="">
+            <img class="logoFloranda" src="" alt="">
         </header>
-        <section>
-            <img src="" alt="">
-            <h1>EXPOFLORANDA</h1>
-            <h2>27 E 28 AGOSTO/23</h2>
-            <h3>20º EDIÇÃO</h3>
+        <section class="primeiraSessao">
+            <div class="dataEdicao">
+                <div>
+                    <h1>EXPOFLORANDA</h1>
+                </div>
+                <div class="diaMesEdicao">
+                    <div>
+                        <h2>27 E 28 AGOSTO/23</h2>
+                    </div>
+                    <div>
+                        <h3>20º EDIÇÃO</h3>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="conteiner">
                 <div class="card">
                     <button>Comprar</button>
@@ -36,26 +69,26 @@
                 </div>
                 <div class="chamada">
                     <h2>INSCREVA-SE AGORA</h2>
-                    <span>
+                    <div class="participe">
                         <span>participe desse</span>
                         <span>aprendizado</span>
-                        <span>e de muito mais.</span>
-                    </span>
+                        <strong class="destaque">e de muito mais.</strong>
+                    </div>
                 </div>
 
             </div>
         </section>
-        <section>
-            <div>
-                <img src="img/exposicoes.jpg" alt="Imagem de uma exposição na ExpoFloranda">
+        <section class="segundaSessao">
+            <div class="conteinerEventos">
+                <img class="imgEventos" src="img/exposicoes.jpg" alt="Imagem de uma exposição na ExpoFloranda">
                 <p>Exposições</p>
             </div>
-            <div>
-                <img src="img/workshops.jpg" alt="Imagem de um workshop na ExpoFloranda">
+            <div class="conteinerEventos">
+                <img class="imgEventos" src="img/workshops.jpg" alt="Imagem de um workshop na ExpoFloranda">
                 <p>Workshops</p>
             </div>
-            <div>
-                <img src="img/palestras.jpg" alt="Imagem de uma Palestra na ExpoFloranda">
+            <div class="conteinerEventos">
+                <img class="imgEventos" src="img/palestras.jpg" alt="Imagem de uma Palestra na ExpoFloranda">
                 <p>Palestras</p>
             </div>
         </section>
@@ -133,7 +166,7 @@
         </section>
         <strong>Localização</strong>
         <div class="map">
-            <iframe src="#" frameborder="0">mapa</iframe>
+            <iframe src="" frameborder="0">mapa</iframe>
             <address>
                 <p>BR-101 Km 184 S/N Tijuquinhas, Biguaçu - SC, 88160-000</p>
             </address>
@@ -149,6 +182,9 @@
             <a href="#">Maicon Monteiro</a>
         </span>
     </footer>
+
+    <script src="js/preloader.js"></script>
+
 </body>
 
 </html>
