@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>ExpoFloranda 2023</title>
 </head>
 
@@ -53,18 +55,40 @@
 
             <div class="conteiner">
                 <div class="card">
-                    <button>Comprar</button>
-                    <div>
-                        <img src="" alt="Icone relogio">
-                        <p>27 e 28 de agosto de 2023 às 16:00</p>
+                    <button class="CartBtn">
+                        <span class="IconContainer">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"
+                                fill="rgb(255, 255, 255)" class="cart">
+                                <path
+                                    d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                                </path>
+                            </svg>
+                        </span>
+                        <p class="text">Comprar</p>
+                    </button>
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">schedule</span>
+                        <strong>27 e 28 de agosto de 2023</strong> às 16:00</p>
                     </div>
-                    <div>
-                        <img src="" alt="Icone d ingresso">
-                        <p>Ingressos a de R$ 35,00 em até 12x</p>
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">emergency_home</span>
+                        <strong>Primeiro lote, vagas limitadas!</strong>
                     </div>
-                    <div>
-                        <img src="" alt="Icone localização">
-                        <p>Sede Floranda Biguaçu, SC</p>
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">confirmation_number</span>
+                        <strong>Ingresso primeiro lote, um dia R$ 190,00 os dois dias R$ 280,00</strong>
+                    </div>
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">group_add</span>
+                        <strong>Para compra em grupo com mais de 3 pessoas da mesma empresa, entrar em contato</strong>
+                    </div>
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">distance</span>
+                        <div>
+                            <strong>Sede Floranda</strong>
+                            <p>Biguaçu, SC</p>
+                        </div>
+
                     </div>
                 </div>
                 <div class="chamada">
@@ -81,106 +105,127 @@
         <section class="segundaSessao">
             <div class="conteinerEventos">
                 <img class="imgEventos" src="img/exposicoes.jpg" alt="Imagem de uma exposição na ExpoFloranda">
-                <p>Exposições</p>
+                <p class="evento">Exposições</p>
             </div>
             <div class="conteinerEventos">
                 <img class="imgEventos" src="img/workshops.jpg" alt="Imagem de um workshop na ExpoFloranda">
-                <p>Workshops</p>
+                <p  class="evento">Workshops</p>
             </div>
             <div class="conteinerEventos">
                 <img class="imgEventos" src="img/palestras.jpg" alt="Imagem de uma Palestra na ExpoFloranda">
-                <p>Palestras</p>
+                <p  class="evento">Palestras</p>
             </div>
         </section>
-        <section>
-            <h1>venha se encantar e aprender com:</h1>
+        <div class="tituloTerceiraSessao">
+            <strong>venha se encantar</strong><strong>e aprender com:</strong>
+        </div>
+
+        <section class="terceiraSessao">
             <div class="primColum">
-                <div>
-                    <img src="#" alt="Foto de perfil Jab Passollini">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/jab.png" alt="Foto de perfil Jab Passollini">
                     <div>
-                        <strong>jab pasollini</strong>
-                        <p>
+                        <strong class="nomeArtista">jab pasollini</strong>
+                        <p class="formacaoArtista">
                             porta-voz do nosso evento! é designer floral,
                             ministra cursos pelo brasil, especialista em cerimonial empresarial.</p>
-                        <a href="#">@jabpasollinioficial</a>
+                        <a href="https://www.instagram.com/jabpasollinioficial/" target="_blank">@jabpasollinioficial</a>
                     </div>
                 </div>
-                <div>
-                    <img src="#" alt="Foto de perfil Michel Bevenute">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/michel.png" alt="Foto de perfil Michel Bevenute">
                     <div>
-                        <strong>Michel Bevenute</strong>
-                        <p>
+                        <strong class="nomeArtista">Michel Bevenute</strong>
+                        <p class="formacaoArtista">
                             Formado pela escola brasileira de arte floranda, designer de interiores conhecido
                             pelo estilo garden style.
                         </p>
-                        <a href="#">@michelbenevenute</a>
+                        <a href="https://www.instagram.com/michelbenevenute/" target="_blank">@michelbenevenute</a>
                     </div>
                 </div>
-                <div>
-                    <img src="#" alt="Foto de perfil Harley Vix">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/harley.png" alt="Foto de perfil Harley Vix">
                     <div>
-                        <strong>Harley Vix</strong>
-                        <p>
+                        <strong class="nomeArtista">Harley Vix</strong>
+                        <p class="formacaoArtista">
                             Arquiteto, urbanista e cenógrafo, já trabalhou para nomes como eliana,
                             ivete sangalo, fendi e dolce gabanna.
                         </p>
-                        <a href="#">@harleyvixcosta</a>
+                        <a href="https://www.instagram.com/harleyvixcosta/" target="_blank">@harleyvixcosta</a>
                     </div>
                 </div>
             </div>
             <div class="seconColum">
-                <div>
-                    <img src="#" alt="Foto de perfil Tanus Saab">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/tanus.png" alt="Foto de perfil Tanus Saab">
                     <div>
-                        <strong>Tanus Saab</strong>
-                        <p>
+                        <strong class="nomeArtista">Tanus Saab</strong>
+                        <p class="formacaoArtista">
                             Arquiteto e urbanista. é designer floral premiado internacionalmente.
                             professor e diretor de prova da abaf
                         </p>
-                        <a href="#">@tanussaab</a>
+                        <a href="https://www.instagram.com/tanussaab/" target="_blank">@tanussaab</a>
                     </div>
                 </div>
-                <div>
-                    <img src="#" alt="Foto de perfil Samuel Gonçalves">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/samuel.png" alt="Foto de perfil Samuel Gonçalves">
                     <div>
-                        <strong>Samuel Gonçalves</strong>
-                        <p>
+                        <strong class="nomeArtista">Samuel Gonçalves</strong>
+                        <p class="formacaoArtista">
                             É bióologo e doutor em botânica pela ufmg, influence no youtube e professor de
                             biologia em mg
                         </p>
-                        <a href="#">@umbotaniconoapartamento</a>
+                        <a href="https://www.instagram.com/umbotaniconoapartamento/" target="_blank">@umbotaniconoapartamento</a>
                     </div>
                 </div>
-                <div>
-                    <img src="#" alt="Foto de perfil Stans Schelting">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/stans.png" alt="Foto de perfil Stans Schelting">
                     <div>
-                        <strong>Stans Scheltinga</strong>
-                        <p>
+                        <strong class="nomeArtista">Stans Scheltinga</strong>
+                        <p class="formacaoArtista">
                             Arquiteto, urbanista e cenografo, já trabalhou para nomes como eliana, ivete sangalo,
                             fendi e dilce gabanna.
                         </p>
-                        <a href="#">@stansscheltinga</a>
+                        <a href="https://www.instagram.com/stansscheltinga/" target="_blank">@stansscheltinga</a>
                     </div>
                 </div>
             </div>
         </section>
-        <strong>Localização</strong>
-        <div class="map">
-            <iframe src="" frameborder="0">mapa</iframe>
+        <div class="localizacao">
+            <strong>localização</strong>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.599482920719!2d-48.62849922538227!3d-27.419422014564375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527519170f4b579%3A0xee83e4deec050346!2sBR-101%20-%20Guaporanga%2C%20Bigua%C3%A7u%20-%20SC%2C%2088160-000!5e0!3m2!1spt-BR!2sbr!4v1688745797267!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
             <address>
                 <p>BR-101 Km 184 S/N Tijuquinhas, Biguaçu - SC, 88160-000</p>
             </address>
         </div>
     </main>
     <footer>
-        <div>
-            <img src="#" alt="Logo Floranda">
-            <p>Redes sociais</p>
+        <div class="conteiner-footer">
+            <div>
+                <img class="logoRodape" src="img/marcaFloranda.png" alt="Logo Floranda">
+            </div>
+            <span>
+                <a href="https://www.facebook.com/floranda.comerciodeflores/"  target="_blank">
+                    <img class="iconeRedesSociais face" src="img/Icone-facebook-png.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/florandacomerciodeflores/" target="_blank">
+                    <img class="iconeRedesSociais insta" src="img/icone-instagram.png" alt="">
+                </a>
+                
+            </span>
         </div>
-        <span>
-            Site construido por
-            <a href="#">Maicon Monteiro</a>
-        </span>
+        <div class="credito">
+            <p>
+                Desenvolvido por  &nbsp; <a class="monteiro" href="https://www.monteiro.dev.br/" target="_blank">Maicon Monteiro</a>
+                &nbsp; /  &nbsp; Designer <a class="bamba" href="https://bambacomunicacao.com.br/" target="_blank">Bamba Comunicações</a> 
+            </p>
+        </div>
+        
     </footer>
 
     <script src="js/preloader.js"></script>
