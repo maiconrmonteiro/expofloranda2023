@@ -111,7 +111,7 @@ header {
     border: none;
     background-color: #FFFF;
     width: 350px;
-    height: 400px;
+    height: 420px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -142,6 +142,10 @@ header {
     position: relative;
     color: white;
     padding: 13px;
+}
+
+.card a {
+    width: 100%;
 }
 
 .IconContainer {
