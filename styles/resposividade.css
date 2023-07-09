@@ -5,13 +5,16 @@
     }
 
     .logoFloranda {
-        width: 20%;
+        width: 30%;
+        position: absolute;
+        bottom: 0%;
+        margin-bottom: 5px;
     }
 
     .dataEdicao h1 {
         font-size: 3rem;
     }
-    
+
     .dataEdicao h2 {
         font-size: 1.7rem;
     }
@@ -25,15 +28,42 @@
         margin-top: -70px;
     }
 
-    .terceiraSessao {
-        width: 100vw;
-        padding: 10px;
+    .tituloTerceiraSessao {
+        font-size: 2rem;
     }
 
-   .participe {
-    font-size: 1.5rem;
-   }
-    
+    .terceiraSessao {
+        width: 100vw;
+    }
+
+    .primColum {
+        width: 380px;
+        margin: auto;
+    }
+
+    .seconColum {
+        width: 380px;
+        margin: auto;
+    }
+
+    .nomeArtista {
+        font-size: 1rem;
+    }
+
+    .formacaoArtista {
+        font-size: 0.8em;
+    }
+
+    .fotoPerfil {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .participe {
+        font-size: 1.5rem;
+    }
+
     .dataEdicao h3 {
         font-size: 1em;
     }
@@ -48,5 +78,15 @@
 
     .conteiner {
         flex-direction: column-reverse;
+    }
+
+    .conteiner-footer {
+        justify-content: space-around;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .redes-sociais {
+        display: flex;
     }
 }
