@@ -25,6 +25,7 @@ header {
     width: 10%;
     position: absolute;
     bottom: -7%;
+    margin-bottom: 10px;
 }
 
 .primeiraSessao {
@@ -378,7 +379,7 @@ address {
 
 
 
-/* ini: Preloader */
+/* inicio: Preloader */
 
 #preloader {
     width: 100vw;
@@ -457,4 +458,4 @@ address {
     }
 }
 
-/* end: Preloader */
+/* fim: Preloader */

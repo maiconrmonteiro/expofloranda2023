@@ -1,0 +1,52 @@
+@media only screen and (max-width: 750px) {
+
+    .marcaFloranda {
+        width: 50%;
+    }
+
+    .logoFloranda {
+        width: 20%;
+    }
+
+    .dataEdicao h1 {
+        font-size: 3rem;
+    }
+    
+    .dataEdicao h2 {
+        font-size: 1.7rem;
+    }
+
+    .chamada {
+        padding: 5px;
+    }
+
+    .chamada h2 {
+        font-size: 2rem;
+        margin-top: -70px;
+    }
+
+    .terceiraSessao {
+        width: 100vw;
+        padding: 10px;
+    }
+
+   .participe {
+    font-size: 1.5rem;
+   }
+    
+    .dataEdicao h3 {
+        font-size: 1em;
+    }
+
+    .terceiraSessao {
+        flex-direction: column;
+    }
+
+    .segundaSessao {
+        flex-direction: column;
+    }
+
+    .conteiner {
+        flex-direction: column-reverse;
+    }
+}
