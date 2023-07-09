@@ -6,9 +6,8 @@
 
     .logoFloranda {
         width: 30%;
-        position: absolute;
-        bottom: 0%;
         margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .dataEdicao h1 {
