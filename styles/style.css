@@ -15,6 +15,13 @@ header {
     background-position: top;
 }
 
+.marca {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .marcaFloranda {
     width: 25%;
     position: absolute;
