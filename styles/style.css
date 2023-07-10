@@ -39,7 +39,7 @@ header {
     align-items: center;
     width: 100%;
     height: 800px;
-    background-image: url("../img/imgConteine.png");
+    background-image: url("../img/imgConteineMobile.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -368,6 +368,9 @@ address {
 }
 
 .credito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #616161;
     text-align: center;
     padding: 20px;
@@ -383,11 +386,112 @@ address {
 }
 
 .monteiro {
-    color: #2C396E;
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* Estilo do meu botão site rodapé*/
+.monteiro {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 0.8em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
 }
 
 
+/* hover */
+.monteiro:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
 
+.creditoMonteiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+Botões de rede social
+*/
+
+#social-buttons {
+    display: flex;
+}
+
+.social-button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin: 0 5px;
+            background-color: #fff;
+            box-shadow: 0px 0px 4px #00000027;
+            transition: 0.3s;
+        }
+
+        .social-button:hover {
+            background-color: #f2f2f2;
+            box-shadow: 0px 0px 6px 3px #00000027;
+        }
+
+        .social-buttons svg {
+            transition: 0.3s;
+            height: 20px;
+        }
+
+        .facebook {
+            background-color: #3b5998;
+        }
+
+        .facebook svg {
+            fill: #f2f2f2;
+        }
+
+        .facebook:hover svg {
+            fill: #3b5998;
+        }
+
+        .instagram {
+            background-color: #c13584;
+        }
+
+        .instagram svg {
+            fill: #f2f2f2;
+        }
+
+        .instagram:hover svg {
+            fill: #c13584;
+        }
+
+/* Fim Botoes das redes sociais*/
 
 
 /* inicio: Preloader */

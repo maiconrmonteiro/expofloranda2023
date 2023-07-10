@@ -98,4 +98,8 @@
     .redes-sociais {
         display: flex;
     }
+
+    .credito {
+        flex-direction: column;
+    }
 }
