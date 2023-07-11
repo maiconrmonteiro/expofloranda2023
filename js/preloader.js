@@ -15,3 +15,20 @@ padding:"inner"+a,content:b,"":"outer"+a},function(c,d){n.fn[d]=function(d,e){va
   })
   //]]>
   
+
+
+/*
+comando para ser execultado no console e descobri qual elemento está causando scroll horizontal na tela.
+
+var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+
+*/

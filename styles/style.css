@@ -1,5 +1,5 @@
 body {
-    width: 100vw;
+    width: 100wv;
     height: 100vh;
 }
 
@@ -7,7 +7,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ header {
 }
 
 .marca {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -39,11 +39,11 @@ header {
     align-items: center;
     width: 100%;
     height: 800px;
-    background-image: url("../img/imgConteineMobile.png");
+    background-image: linear-gradient(to bottom, transparent 85%, #fff 99%), url("../img/imgConteineMobile.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .dataEdicao {
@@ -325,7 +325,7 @@ header {
 }
 
 iframe {
-    width: 100vw;
+    width: 100%;
 }
 
 address {

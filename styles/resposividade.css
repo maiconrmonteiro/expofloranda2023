@@ -5,14 +5,14 @@
     }
 
     .primeiraSessao {
-        margin-top: 15px;
+        margin-top: 30px;
         background-image: url("../img/imgConteineMobile.png");
     }
 
     .logoFloranda {
         width: 150px;
         margin-top: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .dataEdicao h1 {
@@ -21,6 +21,7 @@
 
     .dataEdicao h2 {
         font-size: 1.7rem;
+        margin-top: 2px;
     }
 
     .chamada {
