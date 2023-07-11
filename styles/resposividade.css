@@ -15,6 +15,11 @@
         margin-bottom: 10px;
     }
 
+    .marca {
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
     .dataEdicao h1 {
         font-size: 3rem;
     }
