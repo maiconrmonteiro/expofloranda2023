@@ -304,6 +304,8 @@ header {
     margin: auto;
 }
 
+
+
 .localizacao {
     margin-top: 80px;
     display: flex;
@@ -386,11 +388,11 @@ address {
 }
 
 .monteiro {
-  margin: 0;
-  height: auto;
-  background: transparent;
-  padding: 0;
-  border: none;
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
 }
 
 
@@ -398,52 +400,54 @@ address {
 /* estilizazão da barra de scroll */
 
 *::-webkit-scrollbar {
-  width: 5px;
+    width: 5px;
 }
+
 *::-webkit-scrollbar-track {
-  background: #E83780;
+    background: #E83780;
 }
+
 *::-webkit-scrollbar-thumb {
-  border-radius: 20px;
-  border: 5px solid #0B7235;
+    border-radius: 20px;
+    border: 5px solid #0B7235;
 }
 
 
 
 /* Estilo do meu botão site rodapé*/
 .monteiro {
-  --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
-  --animation-color: #37FF8B;
-  --fs-size: 0.8em;
-  letter-spacing: 3px;
-  text-decoration: none;
-  font-size: var(--fs-size);
-  font-family: "Arial";
-  position: relative;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #37FF8B;
+    --fs-size: 0.8em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
 }
 
 .hover-text {
-  position: absolute;
-  box-sizing: border-box;
-  content: attr(data-text);
-  color: var(--animation-color);
-  width: 0%;
-  inset: 0;
-  border-right: var(--border-right) solid var(--animation-color);
-  overflow: hidden;
-  transition: 0.5s;
-  -webkit-text-stroke: 1px var(--animation-color);
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
 }
 
 
 /* hover */
 .monteiro:hover .hover-text {
-  width: 100%;
-  filter: drop-shadow(0 0 23px var(--animation-color))
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
 }
 
 .creditoMonteiro {
@@ -461,52 +465,52 @@ Botões de rede social
 }
 
 .social-button {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            margin: 0 5px;
-            background-color: #fff;
-            box-shadow: 0px 0px 4px #00000027;
-            transition: 0.3s;
-        }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000027;
+    transition: 0.3s;
+}
 
-        .social-button:hover {
-            background-color: #f2f2f2;
-            box-shadow: 0px 0px 6px 3px #00000027;
-        }
+.social-button:hover {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 6px 3px #00000027;
+}
 
-        .social-buttons svg {
-            transition: 0.3s;
-            height: 20px;
-        }
+.social-buttons svg {
+    transition: 0.3s;
+    height: 20px;
+}
 
-        .facebook {
-            background-color: #3b5998;
-        }
+.facebook {
+    background-color: #3b5998;
+}
 
-        .facebook svg {
-            fill: #f2f2f2;
-        }
+.facebook svg {
+    fill: #f2f2f2;
+}
 
-        .facebook:hover svg {
-            fill: #3b5998;
-        }
+.facebook:hover svg {
+    fill: #3b5998;
+}
 
-        .instagram {
-            background-color: #c13584;
-        }
+.instagram {
+    background-color: #c13584;
+}
 
-        .instagram svg {
-            fill: #f2f2f2;
-        }
+.instagram svg {
+    fill: #f2f2f2;
+}
 
-        .instagram:hover svg {
-            fill: #c13584;
-        }
+.instagram:hover svg {
+    fill: #c13584;
+}
 
 /* Fim Botoes das redes sociais*/
 
@@ -591,3 +595,68 @@ Botões de rede social
 }
 
 /* fim: Preloader */
+
+
+/*
+seção nova
+*/
+
+.quarta {
+    margin-top: 50px;
+    color: #6F2A5E;
+}
+
+.programacao {
+    background-image: linear-gradient(to bottom, transparent 85%, #fff 99%), url("../img/back.png");
+}
+
+.programacao a {
+    text-transform: lowercase;
+}
+
+.domingoSegunda {
+    display: flex;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.domingo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.domingo h3 {
+    color: #6F2A5E;
+    font-family: italic;
+    font-size: 1.9rem;
+}
+
+.segunda {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.segunda h3 {
+    color: #6F2A5E;
+    font-family: italic;
+    font-size: 1.9rem;
+}
+
+.programacao span {
+    color: #0B7235;
+    font-weight: bold;
+    font-family: italic;
+}
+
+.programacao p {
+    color: black;
+    font-family: italic;
+}
