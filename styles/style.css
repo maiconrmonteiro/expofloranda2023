@@ -253,7 +253,7 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 2.8rem;
-    color: #0B7235;
+    color: #E83780;
     font-family: italic, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -290,7 +290,7 @@ header {
 .formacaoArtista {
     font-weight: 900;
     font-family: italic, 'Courier New', Courier, monospace;
-    color: #0B7235;
+    color: #E83780;
     text-transform: uppercase;
     font-size: 0.9em;
 }
@@ -652,7 +652,7 @@ seção nova
 }
 
 .programacao span {
-    color: #0B7235;
+    color: #E83780;
     font-weight: bold;
     font-family: italic;
 }
