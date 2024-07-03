@@ -9,7 +9,7 @@ header {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-image: url("../img/header.png");
+    background-image: url("../img/2024/gifheader.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -38,8 +38,8 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 800px;
-    background-image: linear-gradient(to bottom, transparent 85%, #fff 99%), url("../img/imgConteineMobile.png");
+    height: 600px;
+    background-image: linear-gradient(to bottom, transparent 85%, #fff 99%), url("../img/2024/fundoSegundaSessao-03.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +124,7 @@ header {
     width: 350px;
     height: auto;
     border-radius: 30px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
@@ -155,7 +155,6 @@ header {
     position: relative;
     color: white;
     padding: 13px;
-    cursor: no-drop;
 }
 
 .card a {
