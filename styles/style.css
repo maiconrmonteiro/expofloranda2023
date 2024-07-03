@@ -1,663 +1,377 @@
-body {
-    width: 100wv;
-    height: 100vh;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-    background-image: url("../img/2024/gifheader.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-}
-
-.marca {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.marcaFloranda {
-    width: 25%;
-    position: absolute;
-    top: 25%;
-}
-
-.logoFloranda {
-    width: 150px;
-    position: absolute;
-    bottom: -10%;
-}
-
-.primeiraSessao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    background-image: linear-gradient(to bottom, transparent 85%, #fff 99%), url("../img/2024/fundoSegundaSessao-03.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 30px;
-}
-
-.dataEdicao {
-    display: flex;
-    flex-direction: column;
-}
-
-.dataEdicao h1 {
-    font-size: 4rem;
-    color: #0B7235;
-    font-family: italic, sans-serif;
-    font-weight: 900;
-    margin-bottom: -15px;
-    margin-top: 20px;
-}
-
-.dataEdicao h2 {
-    color: #C5A903;
-    font-size: 2.1rem;
-    border: 1px solid #C5A903;
-    padding: 10px;
-    font-family: italic, sans-serif;
-}
-
-.dataEdicao h3 {
-    color: #0B7235;
-    font-family: regular, sans-serif;
-    font-weight: 900;
-    font-size: 1.8em;
-}
-
-.diaMesEdicao {
-    display: flex;
-    justify-content: space-between;
-}
-
-.segundaSessao {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -40px;
-}
-
-.imgEventos {
-    width: 350px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 48px 6px rgba(111, 42, 94, 1);
-}
-
-.evento {
-    font-family: regular, Courier;
-    background-color: #6F2A5E;
-    color: white;
-    padding: 8px;
-    margin-top: -15px;
-}
-
-.conteiner {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin-top: 100px;
-}
-
-.conteinerEventos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-}
-
-.card {
-    border: none;
-    background-color: #FFFF;
-    width: 350px;
-    height: auto;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    box-shadow: 0px 1px 6px 5px rgba(0, 0, 0, 0.09);
-    margin-top: -30px;
-}
-
-.participe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.CartBtn {
-    width: 100%;
-    border-radius: 20px;
-    font-weight: bolder;
-    font-size: x-large;
-    border: none;
-    background-color: #E83780;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition-duration: .5s;
-    overflow: hidden;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
-    position: relative;
-    color: white;
-    padding: 13px;
-}
-
-.card a {
-    width: 100%;
-}
-
-.IconContainer {
-    position: absolute;
-    left: -50px;
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    z-index: 2;
-    transition-duration: .5s;
-}
-
-.icon {
-    border-radius: 1px;
-}
-
-.text {
-    height: 100%;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    transition-duration: .5s;
-    font-size: 1.04em;
-    font-weight: 600;
-    color: #fff;
-}
-
-.CartBtn:hover .IconContainer {
-    transform: translateX(58px);
-    border-radius: 40px;
-    transition-duration: .5s;
-
-}
-
-.CartBtn:hover .text {
-    transform: translate(10px, 0px);
-    transition-duration: .5s;
-}
-
-.CartBtn:active {
-    transform: scale(0.95);
-    transition-duration: .5s;
-}
-
-
-.infoCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-top: 15px;
-    font-family: regular, sans-serif;
-}
-
-.chamada {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.chamada h2 {
-    display: flex;
-    font-family: italic, Courier;
-    font-size: 3rem;
-    font-weight: 900;
-}
-
-.participe {
-    font-family: regular, Courier;
-    text-transform: uppercase;
-    color: #0B7235;
-    font-size: 2.5rem;
-}
-
-.destaque {
-    font-weight: bold;
-    font-family: italic, 'Courier New', Courier, monospace;
-}
-
-.tituloTerceiraSessao {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.8rem;
-    color: #E83780;
-    font-family: italic, sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-}
-
-.terceiraSessao {
-    display: flex;
-    margin: auto;
-    width: 80vw;
-    margin-top: 20px;
-}
-
-
-.fotoPerfil {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-.sobreArtista {
-    display: flex;
-    gap: 10px;
-    padding: 20px;
-}
-
-.nomeArtista {
-    text-transform: uppercase;
-    color: #dbd219;
-    font-family: italic, sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-}
-
-.formacaoArtista {
-    font-weight: 900;
-    font-family: italic, 'Courier New', Courier, monospace;
-    color: #E83780;
-    text-transform: uppercase;
-    font-size: 0.9em;
-}
-
-.primColum {
-    width: 500px;
-    margin: auto;
-}
-
-.seconColum {
-    width: 500px;
-    margin: auto;
-}
-
-
-
-.localizacao {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-}
-
-.localizacao strong {
-    margin: auto;
-    background-color: #6F2A5E;
-    color: #FFFF;
-    padding: 6px;
-    width: 200px;
-    text-align: center;
-    font-family: regular, 'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    font-weight: 500;
-    margin-bottom: -20px;
-    z-index: 1;
-}
-
-iframe {
-    width: 100%;
-}
-
-address {
-    background-color: #2F2E2D;
-    padding: 12px;
-    font-family: regular, 'Courier New', Courier, monospace;
-    color: #fff;
-    text-align: center;
-    font-weight: 200;
-}
-
-.conteiner-footer {
-    background-color: #616161;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logoRodape {
-    width: 30%;
-}
-
-.iconeRedesSociais {
-    width: 25px;
-    cursor: pointer;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 2px solid #fff;
-}
-
-.insta:hover {
-    background-color: #d217979c;
-    border: 2px solid #d217979c;
-}
-
-.face:hover {
-    background-color: #4867AA;
-    border: 2px solid #4867AA;
-}
-
-.credito {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #616161;
-    text-align: center;
-    padding: 20px;
-    font-family: italic, 'Courier New', Courier, monospace;
-    color: #fff;
-}
-
-.bamba {
-    background: #E30E13;
-    background: linear-gradient(to right, #E30E13 0%, #2C396E 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.monteiro {
-    margin: 0;
-    height: auto;
-    background: transparent;
-    padding: 0;
-    border: none;
-}
-
-
-
-/* estilizazão da barra de scroll */
-
-*::-webkit-scrollbar {
-    width: 5px;
-}
-
-*::-webkit-scrollbar-track {
-    background: #E83780;
-}
-
-*::-webkit-scrollbar-thumb {
-    border-radius: 20px;
-    border: 5px solid #0B7235;
-}
-
-
-
-/* Estilo do meu botão site rodapé*/
-.monteiro {
-    --border-right: 6px;
-    --text-stroke-color: rgba(255, 255, 255, 0.6);
-    --animation-color: #37FF8B;
-    --fs-size: 0.8em;
-    letter-spacing: 3px;
-    text-decoration: none;
-    font-size: var(--fs-size);
-    font-family: "Arial";
-    position: relative;
-    text-transform: uppercase;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--text-stroke-color);
-}
-
-.hover-text {
-    position: absolute;
-    box-sizing: border-box;
-    content: attr(data-text);
-    color: var(--animation-color);
-    width: 0%;
-    inset: 0;
-    border-right: var(--border-right) solid var(--animation-color);
-    overflow: hidden;
-    transition: 0.5s;
-    -webkit-text-stroke: 1px var(--animation-color);
-}
-
-
-/* hover */
-.monteiro:hover .hover-text {
-    width: 100%;
-    filter: drop-shadow(0 0 23px var(--animation-color))
-}
-
-.creditoMonteiro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*
-Botões de rede social
-*/
-
-#social-buttons {
-    display: flex;
-}
-
-.social-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 0 5px;
-    background-color: #fff;
-    box-shadow: 0px 0px 4px #00000027;
-    transition: 0.3s;
-}
-
-.social-button:hover {
-    background-color: #f2f2f2;
-    box-shadow: 0px 0px 6px 3px #00000027;
-}
-
-.social-buttons svg {
-    transition: 0.3s;
-    height: 20px;
-}
-
-.facebook {
-    background-color: #3b5998;
-}
-
-.facebook svg {
-    fill: #f2f2f2;
-}
-
-.facebook:hover svg {
-    fill: #3b5998;
-}
-
-.instagram {
-    background-color: #c13584;
-}
-
-.instagram svg {
-    fill: #f2f2f2;
-}
-
-.instagram:hover svg {
-    fill: #c13584;
-}
-
-/* Fim Botoes das redes sociais*/
-
-
-/* inicio: Preloader */
-
-#preloader {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #E83780;
-    /* cor do background que vai ocupar o body */
-    z-index: 999;
-    /* z-index para jogar para frente e sobrepor tudo */
-}
-
-#preloader .inner {
-    position: absolute;
-    top: 50%;
-    /* centralizar a parte interna do preload (onde fica a animação)*/
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.bolas>div {
-    display: inline-block;
-    background-color: #E83780;
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    margin: 3px;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    animation-name: animarBola;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-
-}
-
-
-
-.bolas>div:nth-child(1) {
-    animation-duration: 0.75s;
-    animation-delay: 0;
-}
-
-.bolas>div:nth-child(2) {
-    animation-duration: 0.75s;
-    animation-delay: 0.12s;
-}
-
-.bolas>div:nth-child(3) {
-    animation-duration: 0.75s;
-    animation-delay: 0.24s;
-}
-
-@keyframes animarBola {
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
-
-    16% {
-        -webkit-transform: scale(0.1);
-        transform: scale(0.1);
-        opacity: 0.7;
-    }
-
-    33% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* fim: Preloader */
-
-
-/*
-seção nova
-*/
-
-.quarta {
-    margin-top: 50px;
-    color: #6F2A5E;
-}
-
-.programacao {
-    background-image: linear-gradient(to bottom, transparent 85%, #fff 99%), url("../img/back.png");
-}
-
-.programacao a {
-    text-transform: lowercase;
-}
-
-.domingoSegunda {
-    display: flex;
-    margin-top: 20px;
-    padding: 25px;
-}
-
-.domingo {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 50%;
-    padding: 20px;
-    font-size: 1.2rem;
-}
-
-.domingo h3 {
-    color: #6F2A5E;
-    font-family: italic;
-    font-size: 1.9rem;
-}
-
-.segunda {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    width: 50%;
-    padding: 20px;
-    font-size: 1.2rem;
-}
-
-.segunda h3 {
-    color: #6F2A5E;
-    font-family: italic;
-    font-size: 1.9rem;
-}
-
-.programacao span {
-    color: #E83780;
-    font-weight: bold;
-    font-family: italic;
-}
-
-.programacao p {
-    color: black;
-    font-family: italic;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style2024.css">
+    <link rel="stylesheet" href="styles/resposividade.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles/carroucel.css">
+
+    <title>ExpoFloranda 2023</title>
+</head>
+
+<body>
+
+    <!-- início do preloader -->
+    <div id="preloader">
+        <div class="inner">
+            <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+            <div class="bolas">
+                <div>
+                    <img src="img/icons8-flor-50.png" alt="">
+                </div>
+                <div>
+                    <img src="img/icons8-flor-50.png" alt="">
+                </div>
+                <div>
+                    <img src="img/icons8-flor-50.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fim do preloader -->
+
+    <main>
+        <header>
+            
+        </header>
+        <div class="marca">
+           
+        </div>
+
+        <section class="primeiraSessao">
+            
+            <div class="conteiner">
+                <div class="card">
+                    <a href="https://www.asaas.com/c/vavs2cls1u413tmq">
+                        <button class="CartBtn">
+                            <span class="IconContainer">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"
+                                    fill="rgb(255, 255, 255)" class="cart">
+                                    <path
+                                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <p class="text">Comprar 1º dia - 25/08 </p>
+                        </button>
+                    </a>
+                    <br>
+                    <a href="https://www.asaas.com/c/8oqv9odpd872ry3j">
+                        <button class="CartBtn">
+                            <span class="IconContainer">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"
+                                    fill="rgb(255, 255, 255)" class="cart">
+                                    <path
+                                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <p class="text">Comprar 2º dia - 26/08</p>
+                        </button>
+                    </a>
+                    <br>
+                    <a href="https://www.asaas.com/c/prt9czkkmqlauo57">
+                        <button class="CartBtn">
+                            <span class="IconContainer">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"
+                                    fill="rgb(255, 255, 255)" class="cart">
+                                    <path
+                                        d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <p class="text">Combo 2 dias</p>
+                        </button>
+                    </a>
+
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">schedule</span>
+                        <strong>25 e 26 de agosto de 2024 com inicio às 08h00 até as 17h00</strong>
+                    </div>
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">emergency_home</span>
+                        <strong>Vendas pelo site até dia 23 de agosto</strong>
+                    </div>
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">confirmation_number</span>
+                        <strong>Ingresso primeiro lote, 1º dia R$ 230,00 - 2º dia R$ 170,00 - Combo dois dias R$ 300,00</strong>
+                    </div>
+
+
+                    <!--<div class="infoCard">
+                        <span class="material-symbols-outlined">group_add</span>
+                        <strong>Para compra em grupo com mais de 3 pessoas da mesma empresa, entrar em contato</strong>
+                    </div>-->
+
+                    <div class="infoCard">
+                        <span class="material-symbols-outlined">distance</span>
+                        <div>
+                            <strong>Sede Floranda</strong>
+                            <p>Biguaçu, SC</p>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="segundaSessao">
+            <div class="conteinerEventos">
+                <img class="imgEventos" src="img/exposicoes.jpg" alt="Imagem de uma exposição na ExpoFloranda">
+                <p class="evento">Exposições</p>
+            </div>
+            <div class="conteinerEventos">
+                <img class="imgEventos" src="img/workshops.jpg" alt="Imagem de um workshop na ExpoFloranda">
+                <p class="evento">Workshops</p>
+            </div>
+            <div class="conteinerEventos">
+                <img class="imgEventos" src="img/palestras.jpg" alt="Imagem de uma Palestra na ExpoFloranda">
+                <p class="evento">Palestras</p>
+            </div>
+        </section>
+
+        <!--carrocel-->
+
+        <!--fim do carrocel -->
+
+        <div class="tituloTerceiraSessao">
+            <strong>Aprenda com</strong><strong>os melhores</strong>
+        </div>
+
+        <section class="terceiraSessao">
+            <div class="primColum">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/jab.png" alt="Foto de perfil Jab Passollini">
+                    <div>
+                        <strong class="nomeArtista">jab pasollini</strong>
+                        <p class="formacaoArtista">
+                            porta-voz do nosso evento! é designer floral,
+                            ministra cursos pelo brasil, especialista em cerimonial empresarial.</p>
+                        <a href="https://www.instagram.com/jabpasollinioficial/"
+                            target="_blank">@jabpasollinioficial</a>
+                    </div>
+                </div>
+
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/2024/monicaa.png" alt="Foto de perfil Mônica Ivanics">
+                    <div>
+                        <strong class="nomeArtista">Mônica Ivanics</strong>
+                        <p class="formacaoArtista">
+                            Decoradora há  30 anos. Especialista em embalagens , designer de estamparia e desenvolvimento de linhas e coleções de embalagens voltadas para o mercado de flores.
+                            Ministra cursos em todo o Brasil na área de tendência de embalagens. 
+                        </p>
+                        <a href="https://www.instagram.com/monicaivanicsdecor/" target="_blank">@monicaivanicsdecor</a>
+                    </div>
+                </div>
+
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/2024/pauloo.png" alt="Foto de perfil Paulo Perissoto">
+                    <div>
+                        <strong class="nomeArtista">Paulo Perissoto</strong>
+                        <p class="formacaoArtista">
+                            Florista,  Designer de Interiores,  Decorador de Eventos,  Paisagista,  Professor ABAF,  Presidente da ABAF (Academia Brasileira de Artistas Florais) 
+                            entre 2003 e 2007 e  Atual Diretor Acadêmico da ABAF
+
+                        </p>
+                        <a href="https://www.instagram.com/pauloperissoto/" target="_blank">@pauloperissoto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seconColum">
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/2024/caroll.png" alt="Foto de perfil Carol Costa">
+                    <div>
+                        <strong class="nomeArtista">Carol Costa</strong>
+                        <p class="formacaoArtista">
+                            Criadora da Universidade Minhas Plantas, o maior centro online de jardinagem e paisagismo do Brasil. Ministra cursos pelo brasil de forma online e presencial. 
+                            Autora dos livros: "Minhas Plantas - Jardinagem para Todos (Até Quem Mata Cactos)" e "Minhas Plantas - Paisagismo para Todos (Até os Sem Quintal)",  
+                            "Horta em Vasos"  e "365 Dias Para Plantar". Possui um  um canal no YouTube, com 1,68 milhão de inscritos.
+                        </p>
+                        <a href="https://www.instagram.com/minhasplantas/" target="_blank">@minhasplantas</a>
+                    </div>
+                </div>
+
+                <div class="sobreArtista">
+                    <img class="fotoPerfil" src="img/2024/tucaa.png" alt="Foto de perfil Samuel Gonçalves">
+                    <div>
+                        <strong class="nomeArtista">Tuca Benetti</strong>
+                        <p class="formacaoArtista">
+                            Decoradora de festas  há 14 anos e seus  projetos tem uma ligação direta com a natureza num estilo chamados por muitos de "Rústico Chique".
+                        </p>
+                        <a href="https://www.instagram.com/tucabenetti/"
+                            target="_blank">@tucabenetti</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="programacao">
+            <div class="tituloTerceiraSessao quarta">
+                <strong>A programação</strong><strong>de 2024</strong>
+            </div>
+            <div class="domingoSegunda">
+                <div class="domingo">
+                    <h3>Dia 25 de Agosto - Domingo</h3>
+                    <p>
+                        <span>08h00 às 09h00</span> - Recepção aos participantes com um  delicioso
+                        café da manhã.
+                       
+                    </p>
+                    <p>
+                        <span>09h00 às 11h30</span> - Palestra com <strong>Carol Costa</strong>
+                        (<a href="https://www.instagram.com/minhasplantas/">@minhasplantas</a>)
+                    </p>
+
+                    <p>
+                        <span>Temas:</span> Como divulgar seu trabalho nas redes sociais.
+                    </p>
+
+                    <p>
+                        <span>11h30 às 14h00</span> - Momento para compras e intervalo de almoço
+
+                    </p>
+                    <p>
+                        <span>14h00 às 15h30</span> - Palestra com <strong>Tuca Benetti</strong>
+                        (<a href="https://www.instagram.com/tucabenetti/">@tucabenetti</a>)
+                    </p>
+
+                    <p>
+                        <span>Temas:</span> Decorar com o coração.
+                    </p>
+
+                    <p>
+                        <span>15h30</span> - Demonstrações de arte floral com <strong>Jab Pasollini</strong>
+                        (<a href="https://www.instagram.com/jabpasollinioficial/">@jabpasollinioficial</a>)
+                    </p>
+
+                    <p>
+                        <span>Tema:</span> Arranjos comerciais para floriculturas e assinatura floral.
+                    </p>
+
+                    <p>
+                        <span>16h30</span> - Momento para compras
+                    </p>
+
+                    <p>
+                        <span>18h00</span> - Happy Hour
+                    </p>
+                </div>
+
+                <div class="segunda">
+                    <h3>Dia 26 de Agosto - Segunda</h3>
+
+                    <p>
+                        <span>08h00 às 09h00</span> - Recepção aos participantes com um  delicioso
+                        café da manhã
+                       
+                    </p>
+
+                    <p>
+                        <span>09h00 às 11h30</span> - Demonstrações de arte floral com <strong>Mônica Ivanics</strong>
+                        (<a href="https://www.instagram.com/minhasplantas/">@minhasplantas</a>) e <strong>Paulo Perissoto</strong> (<a href="https://www.instagram.com/pauloperissoto/">@pauloperissoto</a>).
+                    </p>
+
+                    <p>
+                        <span>Temas:</span> Arranjos comerciais, embalagens criativas, buquês para presente, assinatura floral e arranjos para decorações de eventos.
+                    </p>
+
+                    <p>
+                        <span>11h30 às 14h00</span> - Momento para compras e intervalo de almoço.
+                    </p>
+
+                    <p>
+                        <span>14h00 às 16h30</span> - Demonstrações de arte floral com <strong>Mônica Ivanics</strong>
+                        (<a href="https://www.instagram.com/monicaivanicsdecor/">@monica.ivanics</a>) e <strong>Paulo Perissoto</strong> (<a href="https://www.instagram.com/pauloperissoto/">@pauloperissoto</a>).
+                    </p>
+
+                    <p>
+                        <span>Temas:</span> rranjos comerciais, embalagens criativas, buquês para presente, assinatura floral e arranjos para decorações de eventos.
+                    </p>
+
+                    <p>
+                        <span>16h30</span> - Coffee Break e momento para compras.
+                    </p>
+                </div>
+
+        </section>
+
+        <div class="localizacao">
+            <strong>localização</strong>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14166.393675026946!2d-48.6268605!3d-27.4194552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274c30b0877d41%3A0xb5173b12b1f41ce8!2sFloranda%20Distribuidora!5e0!3m2!1spt-BR!2sbr!4v1689078683156!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <address>
+                <p>BR-101 Km 184 S/N Tijuquinhas, Biguaçu - SC, 88160-000</p>
+            </address>
+        </div>
+    </main>
+    <footer>
+        <div class="conteiner-footer">
+            <div>
+                <img class="logoRodape" src="img/marcaFloranda.png" alt="Logo Floranda">
+            </div>
+            <div id="social-buttons" class="social-buttons">
+                <a href="https://www.facebook.com/floranda.comerciodeflores/" class="social-button facebook">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 310 310" xml:space="preserve">
+                        <g id="XMLID_834_">
+                            <path id="XMLID_835_" d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+                  c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+                  V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+                  C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+                  c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"></path>
+                        </g>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/florandacomerciodeflores/" class="social-button instagram">
+                    <svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1">
+                            <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <path
+                                        d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"
+                                        id="instagram-[#167]">
+
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="credito">
+            <div class="creditoMonteiro">
+                <p>Desenvolvido por &nbsp;</p>
+                <a href="https://www.monteiro.dev.br/" target="_blank">
+                    <p>Maicon Monteiro</p>
+                </a>
+            </div>
+            
+        </div>
+        <a href="https://wa.me/554832798910?text=Olá%20preciso de%20mais informações."
+            style="text-align: center; position:fixed;width:60px;height:60px;bottom:30px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:0;"
+            target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+
+    </footer>
+
+    <script src="js/preloader.js"></script>
+    <script src="js/carrocel.js"></script>
+
+</body>
+
+</html>
